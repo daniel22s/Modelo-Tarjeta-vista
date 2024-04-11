@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    font-size: 15px;
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    width: 340px;
+}
+
+svg{
+    max-width: 100%; /* Hacer que la imagen sea responsive */
+    display: block; /* Asegurarse de que la imagen no cause problemas de alineación */
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.div-aprendiendo{
+    background-color: burlywood;
+    border: 2px;
+    border-radius: 15px;
+    width: auto;
+    max-width: 95px;
+    height: 30px; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.div-fecha{
+    color: hsl(0, 0%, 50%);
+}
+
+.texto h1{
+    font-size: 25px;
+}
+
+.texto p{
+    text-align: left;
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+}
+
+.div-avatar{
+    display: flex;
+    color: hsl(0, 0%, 50%);
+}
+
+@media (max-width: 500px) {
+    
+    .container {
+        max-width: 100%;
+        
+    }
+}
